@@ -1,0 +1,38 @@
+{
+    "name": "phaser-rts",
+    "version": "1.0.0",
+    "description": "Phaser game - RTS",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack",
+        "dev": "webpack-dev-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kacperjagiela/phaser-rts.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kacperjagiela/phaser-rts/issues"
+    },
+    "homepage": "https://github.com/kacperjagiela/phaser-rts#readme",
+    "dependencies": {
+        "eslint": "^7.10.0",
+        "phaser": "^3.24.1"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.3.0",
+        "@typescript-eslint/parser": "^4.3.0",
+        "copy-webpack-plugin": "^6.2.0",
+        "eslint-config-prettier": "^6.12.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "prettier": "^2.1.2",
+        "ts-loader": "^8.0.4",
+        "typescript": "^4.0.3",
+        "webpack": "^4.44.2",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    }
+}

@@ -1,2 +1,3 @@
 # phaser-rts
-Phaser game - RTS
+
+Repository used to create rts like game in phaser
